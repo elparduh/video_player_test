@@ -17,7 +17,7 @@ class VideoPlayerScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (_) => locator<VideoPlayerBloc>()..onPlayVideo('https://firebasestorage.googleapis.com/v0/b/mrchordapp-34f1d.appspot.com/o/IMG_2962.MOV?alt=media&token=d12c4455-dd5e-4e8b-8255-17c446794d7f'),
+      create: (_) => locator<VideoPlayerBloc>()..onPlayVideo('https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Video player'),
